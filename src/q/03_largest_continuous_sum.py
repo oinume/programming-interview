@@ -10,5 +10,5 @@ def largestContinuousSum(array):
     return maxSum
 
 if __name__ == '__main__':
-    print(largestContinuousSum([100, 6, -46, 10, 100])) # 106
-    print(largestContinuousSum([100, 6, -46, 10, 10])) # 170
+    print(largestContinuousSum([100, 6, -46])) # 106
+    print(largestContinuousSum([100, 6, -46, 10, 100])) # 170
